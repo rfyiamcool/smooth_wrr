@@ -1,5 +1,9 @@
 # smooth_wrr
 
+smooth weighted round robin algo like nginx
+
+https://github.com/nginx/nginx/commit/52327e0627f49dbda1e8db695e63a4b0af4448b1
+
 ```
 
 func main(){
