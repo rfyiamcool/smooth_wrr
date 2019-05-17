@@ -1,12 +1,3 @@
-# smooth_wrr
-
-smooth weighted round robin algo like nginx
-
-https://github.com/nginx/nginx/commit/52327e0627f49dbda1e8db695e63a4b0af4448b1
-
-## Usage
-
-```
 package main
 
 import (
@@ -37,19 +28,3 @@ func main() {
 		fmt.Println(resultStr)
 	}
 }
-```
-
-**stdout:**
-
-```
-Loop:  0
-a,a,b,a,c,a,a
-Loop:  1
-a,a,b,a,c,a,a
-Loop:  2
-a,a,b,a,c,a,a
-Loop:  3
-a,a,b,a,c,a,a
-Loop:  4
-a,a,b,a,c,a,a
-```

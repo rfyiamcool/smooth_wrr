@@ -1,4 +1,4 @@
-package RoundRobin
+package smoothwrr
 
 import (
 	"strings"
